@@ -127,6 +127,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 .sticky-nav-icon{
     margin-left: 0.75rem;
@@ -170,4 +171,18 @@ a{
 .card-info{
     opacity: 0.8;
     font-size: 0.85rem;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    justify-content: center;
+
 }
