@@ -186,3 +186,39 @@ a{
     justify-content: center;
 
 }
+.music-player{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+}
+
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.control{
+    width: 25%
+}
+.player-control-icon{
+    height: 1rem ;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+.progress-bar{
+    width: 70%;
+    
+}
