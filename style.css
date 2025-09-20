@@ -194,7 +194,28 @@ a{
 
 .album{
     width: 25%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+   
+   
+
+
 }
+.running-song{
+    
+    height: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+
+    
+}
+.album-icons{
+    margin-left: 1rem;
+    align-items:center;
+    
+    
+   }
 .player{
     width: 50%;
 }
@@ -220,5 +241,5 @@ a{
 }
 .progress-bar{
     width: 70%;
-    
+
 }
